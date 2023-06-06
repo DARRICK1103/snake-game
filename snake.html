@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .header h1, .header h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header h2 {
+            margin-right: 13%;
+            flex-grow: 1;
+            text-align: center;
+        }
+
+
+
+
+        #board {
+            display: block;
+            margin: 50px auto;
+            border: 1px solid #000;
+            background-color: #fff;
+            
+        }
+
+ 
+    </style>
+    <script src="snake.js"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Snake Game</h1>
+        <h2 id="h2">Score:  0 </h2>
+    </div>
+    <canvas id="board"></canvas>
+
+
+
+</body>
+</html>

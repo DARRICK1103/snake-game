@@ -194,6 +194,7 @@ function changeDirection(e){
   function resetGame() {
     // Reset game state to initial values
     gameOver = false;
+    alertShown = false;
     snakeX = startingSnakeX;
     snakeY = startingSnakeY;
     snakeBody = [];
